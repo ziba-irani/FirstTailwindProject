@@ -1,15 +1,14 @@
 # firstTailwindProject
 
-**enjoy of my new Tailwind project**
+**enjoy my new Tailwind project**
 
-![sass](https://github.com/ziba-irani/SassProject-2-/assets/125620113/e55e0016-99b0-4414-9c0b-514f0c15d651)
+- ![firstTailwindProject](https://github.com/ziba-irani/firstTailwindProject/assets/125620113/88221fd9-8396-4b56-8f15-b4bba35b8821)
 
 - [Demo Project](https://ziba-irani.github.io/firstTailwindProject/)
 
-
 - Developed by ziba irani
 
-- Technologies Used - Html , css , Sass
+- Technologies Used - HTML5 , CSS , Tailwind
 
 - Role - Frontend
 
