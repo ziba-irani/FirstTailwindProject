@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arona</title>
+    <link rel="stylesheet" href="css/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body class="bg-[#fffbf3]">
+    <header class="w-full border-b-[2px] border-black">
+      <nav
+        class="hidden lg:flex 2xl:container px-[20px] xl:px-[80px] mx-auto justify-center align-middle py-[10px]"
+      >
+        <figure class="w-[10%]">
+          <img src="img/logo.svg" alt="" />
+        </figure>
+        <ul class="w-[75%] flex justify-center align-middle">
+          <li class="px-[10px]"><a href="#">Shop</a></li>
+          <li class="px-[10px]"><a href="#">Our Story</a></li>
+          <li class="px-[10px]"><a href="#">Collection</a></li>
+          <li class="px-[10px]"><a href="#">Blogs</a></li>
+          <li class="px-[10px]"><a href="#">Reviews</a></li>
+          <li class="px-[10px]"><a href="#">Contact</a></li>
+        </ul>
+        <div class="icons w-[15%] flex justify-end">
+          <span class="material-symbols-outlined px-[10px]">
+            shopping_bag
+          </span>
+          <span class="material-symbols-outlined px-[10px]"> search </span>
+        </div>
+      </nav>
+      <!-- responsive nav -->
+      <nav
+        class="container mx-auto px-[20px] flex lg:hidden border-b-[2px] border-black 2xl:container justify-between align-middle py-[10px]"
+      >
+        <figure class="w-[80%]">
+          <img src="img/logo.svg" alt="" />
+        </figure>
+        <div class="icons w-[20%] flex justify-end">
+          <span class="material-symbols-outlined px-[10px]">
+            shopping_bag
+          </span>
+          <span class="material-symbols-outlined text-[20px]"> menu </span>
+        </div>
+      </nav>
+    </header>
+    <!-- end header -->
+    <!-- start section 1 -->
+    <section
+      class="2xl:container mx-auto px-[20px] xl:px-[80px] flex flex-wrap py-[100px]"
+    >
+      <!-- left -->
+      <div class="images lg:w-[44%] w-full">
+        <p class="text-[70px] leading-tight font-normal font-Fraunces">
+          Essential <br />
+          Glamour, Pure <br />
+          Confidence
+        </p>
+        <div class="buttons mt-[50px]">
+          <a
+            href="#"
+            class="text-[16px] border-black border-[1px] rounded-pill py-[8px] px-[15px] rounded-full hover:bg-black hover:text-white duration-[0.2s]"
+            >Shop Now</a
+          >
+          <a
+            href="#"
+            class="hover:border-b-2 pb-1 ml-4 border-black duration-[0.3s]"
+            >View Collection</a
+          >
+        </div>
+        <div
+          class="hidden lg:flex box w-[400px] bg-[#f5ecd9] px-[40px] py-[20px] mt-[170px]"
+        >
+          <p class="text-[14px] text-center">
+            Our carefully curated collection brings together chic essentials
+            designed to simplify and elevate.
+          </p>
+        </div>
+      </div>
+      <!-- right -->
+      <div
+        class="text mt-[50px] lg:mt-[0px] flex justify-between w-full lg:w-[56%]"
+      >
+        <figure class="w-[38%]">
+          <img
+            class=" "
+            src="img/section1-product.jpg"
+            alt="section1-product"
+          />
+          <figcaption class="flex">
+            <div class="flex mt-[10px]">
+              <img
+                class="w-[45px] h-[45px] rounded-full"
+                src="img/figcation2.jpg"
+                alt=""
+              />
+              <img
+                class="w-[45px] h-[45px] ml-[-20px] rounded-full"
+                src="img/figcation1.jpg"
+                alt=""
+              />
+            </div>
+            <p class="ml-[15px] font-medium mt-[12px] text-[12px]">
+              4.7 Star Rating <br />
+              Based on 3,571 Reviews
+            </p>
+          </figcaption>
+        </figure>
+        <figure class="w-[58%]">
+          <img class=" " src="img/section2-product.jpg" alt="" />
+          <figcaption
+            class="mt-[5px] font-medium text-[14px] flex justify-end text-end"
+          >
+            Where each product tells a story of grace, confidence,<br />
+            and the timeless allure that is uniquely yours.
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+    <!-- end section 1 -->
+    <!-- start section 2 -->
+    <section
+      class="mt-[150px] mx-auto 2xl:container w-full flex flex-wrap justify-between xl:px-[100px] px-[15px]"
+    >
+      <div class="w-full lg:w-[65%]">
+        <figure>
+          <img src="img/section2-2.jpg" alt="" />
+        </figure>
+        <div class="text flex flex-wrap justify-between">
+          <div class="w-full lg:w-[55%]">
+            <p class="text-[45px] font-Fraunces">
+              Behind the Scenes of Beauty Innovation
+            </p>
+            <a href="#" class="flex align-middle group"
+              >About us
+              <span
+                class="material-symbols-outlined mt-[3px] ml-[10px] duration-500 group-hover:ml-[20px]"
+              >
+                east
+              </span>
+            </a>
+          </div>
+          <div
+            class="w-full flex flex-wrap lg:w-[30%] mt-[40px] lg:mt-[0px] text-start lg:text-end"
+          >
+            <p class="text-[14px] lg:mt-[30px] lg:w-full w-[50%]">
+              Arona is dedicated to crafting products that empower and enhance
+              natural radiance.
+            </p>
+            <p class="text-[14px] lg:mt-[100px] lg:w-full w-[50%]">
+              Every product tells a story of elegance & a dedication to your
+              skin's well-being
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lg:w-[32.5%] hidden lg:flex">
+        <img src="img/section2-1.jpg" alt="" />
+      </div>
+    </section>
+    <!-- end section 2 -->
+    <!-- start section 3 -->
+    <section
+      class="2xl:container mx-auto lg:mt-[150px] mt-[70px] bg-[#f5ecd9] justify-between w-full 2xl:w-container section3 px-[20px] xl:px-[80px] flex flex-wrap"
+    >
+      <div class="w-full lg:w-[60%] py-[70px]">
+        <p class="text-[14px]">Shop by Categories</p>
+        <ul class="flex flex-wrap justify-between">
+          <li class="lg:w-[100%] w-[48%] py-[15px] border-b-[1px] border-black">
+            <a href="#" class="group lg:text-[40px] text-[32px] font-extralight"
+              >Nail Care
+            </a>
+          </li>
+          <li
+            class="group lg:w-[100%] w-[48%] py-[15px] border-b-[1px] border-black"
+          >
+            <a href="#" class="lg:text-[40px] text-[28px] font-extralight">
+              Beauty Tools
+            </a>
+          </li>
+          <li class="lg:w-[100%] w-[48%] py-[15px] border-b-[1px] border-black">
+            <a href="#" class="lg:text-[40px] text-[32px] font-extralight"
+              >Hair Care
+            </a>
+          </li>
+          <li class="lg:w-[100%] w-[48%] py-[15px] border-b-[1px] border-black">
+            <a href="#" class="lg:text-[40px] text-[32px] font-extralight"
+              >Makeup
+            </a>
+          </li>
+          <li class="lg:w-[100%] w-[48%] py-[15px] border-b-[1px] border-black">
+            <a href="#" class="lg:text-[40px] text-[32px] font-extralight"
+              >Fragrance
+            </a>
+          </li>
+          <li class="lg:w-[100%] w-[48%] py-[15px] border-b-[1px] border-black">
+            <a href="#" class="lg:text-[40px] text-[32px] font-extralight"
+              >Skin Care
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w-full lg:w-[35%] lg:py-[60px]">
+        <img
+          class="w-[100%] md:h-[580px] h-[470px]"
+          src="img/section3.jpg"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- end section 3 -->
+    <!-- start section 4 -->
+    <section
+      class="2xl:container bg-[#fffbf3] mx-auto lg:px-[80px] px-[20px] lg:py-[100px] py-[50px]"
+    >
+      <div class="texts flex justify-between align-middle">
+        <p class="text-[40px] font-Fraunces">Best Selling Product</p>
+        <a class="group hidden md:flex align-middle mt-[25px]">
+          View All
+          <span
+            class="material-symbols-outlined duration-500 group-hover:ml-[10px]"
+          >
+            east
+          </span>
+        </a>
+      </div>
+      <div class="products flex flex-wrap justify-between">
+        <div class="product my-[30px] lg:w-[22%] md:w-[30%] w-[48%]">
+          <figure class="duration-1000 w-[100%]">
+            <img
+              class="hover:scale-[1.03]"
+              src="../src/img/bestSellingProduct1.jpg"
+              alt=""
+            />
+            <figcaption class="mt-[10px]">
+              Purity Pearl Nail Strengthener
+            </figcaption>
+            <figcaption>$14.70 USD</figcaption>
+          </figure>
+        </div>
+        <div class="product my-[30px] lg:w-[22%] md:w-[30%] w-[48%]">
+          <figure class="duration-1000 w-[100%]">
+            <img
+              class="hover:scale-[1.03]"
+              src="../src/img/bestSellingProduct2.jpg"
+              alt=""
+            />
+            <figcaption class="mt-[10px]">Soothing Aloe Vera Gel</figcaption>
+            <figcaption>$22.60 USD</figcaption>
+          </figure>
+        </div>
+        <div class="product my-[30px] lg:w-[22%] md:w-[30%] w-[48%]">
+          <figure class="duration-1000 w-[100%]">
+            <img
+              class="hover:scale-[1.03]"
+              src="../src/img/bestSellingProduct3.jpg"
+              alt=""
+            />
+            <figcaption class="mt-[10px]">Flawless Foundation</figcaption>
+            <figcaption>$18.60 USD</figcaption>
+          </figure>
+        </div>
+        <div class="product my-[30px] lg:w-[22%] md:w-[30%] w-[48%]">
+          <figure class="duration-1000w-[100%]">
+            <img
+              class="hover:scale-[1.03]"
+              src="../src/img/bestSellingProduct4.jpg"
+              alt=""
+            />
+            <figcaption class="mt-[10px]">Hydrating Face Mist</figcaption>
+            <figcaption>$18.60 USD</figcaption>
+          </figure>
+        </div>
+      </div>
+      <a class="flex justify-end md:hidden align-middle mr-[10px] mt-[25px]">
+        View All
+        <span
+          class="material-symbols-outlined duration-500 group-hover:ml-[10px]"
+        >
+          east
+        </span>
+      </a>
+    </section>
+    <!-- end section 4 -->
+    <!-- start section 5 -->
+    <section
+      class="2xl:container flex justify-between items-center flex-wrap bg-[#fffbf3] border-y-2 mx-auto lg:px-[80px] px-[20px]"
+    >
+      <div class="text lg:w-[40%] w-[100%] py-[30px]">
+        <p class="text-[20px] mb-[10px]">Trusted by +650 Companies</p>
+        <p class="w-[70%]">
+          We take pride in being the trusted choice for over 650 companies
+          worldwide.
+        </p>
+      </div>
+      <div class="logos flex flex-wrap justify-between lg:w-[58%] w-[100%]">
+        <figure class="w-[30%] py-[20px] lg:py-[30px] md:w-[24%]">
+          <img src="img/logo1.svg" alt="" />
+        </figure>
+        <figure class="w-[30%] py-[20px] lg:py-[30px] md:w-[24%]">
+          <img src="img/logo2.svg" alt="" />
+        </figure>
+        <figure class="w-[30%] py-[20px] lg:py-[30px] md:w-[24%]">
+          <img src="img/logo3.svg" alt="" />
+        </figure>
+        <figure class="w-[30%] py-[20px] lg:py-[30px] md:w-[24%]">
+          <img src="img/logo4.svg" alt="" />
+        </figure>
+        <figure class="w-[30%] py-[20px] lg:py-[30px] md:w-[24%]">
+          <img src="img/logo5.svg" alt="" />
+        </figure>
+        <figure class="w-[30%] py-[20px] lg:py-[30px] md:w-[24%]">
+          <img src="img/logo6.svg" alt="" />
+        </figure>
+        <figure class="w-[30%] py-[20px] lg:py-[30px] md:w-[24%]">
+          <img src="img/logo7.svg" alt="" />
+        </figure>
+        <figure class="w-[30%] py-[20px] lg:py-[30px] md:w-[24%]">
+          <img src="img/logo8.svg" alt="" />
+        </figure>
+      </div>
+    </section>
+    <!-- end section 5 -->
+    <!-- start section 6 -->
+    <section
+      class="2xl:container bg-[#fffbf3] flex justify-between flex-wrap mx-auto xl:px-[80px] px-[10px] lg:py-[150px] py-[70px]"
+    >
+      <div class="text lg:w-[30%] w-[100%] py-[50px] m-auto">
+        <p class="text-[40px] leading-snug font-Fraunces">
+          Begin Your Shopping Journey
+        </p>
+        <p class="mb-[50px] mt-[10px]">
+          A curated collection where each product is a gateway to elevated
+          elegance and transformative beauty. From skincare essentials that
+          unveil radiant skin to makeup wonders that redefine your look.
+        </p>
+        <a
+          class="border-[1px] border-black rounded-full px-[20px] py-[10px]"
+          href="#"
+          >Shop Now</a
+        >
+      </div>
+
+      <div class="images flex justify-between lg:w-[65%] w-[100%]">
+        <figure class="w-[48%] bg-fuchsia-400">
+          <img src="img/shop1.jpg" alt="" />
+        </figure>
+        <figure class="w-[48%] bg-yellow-400">
+          <img src="img/shop2.jpg" alt="" />
+        </figure>
+      </div>
+    </section>
+    <!-- end section 6 -->
+    <!-- start section 7 -->
+    <section class="2xl:container mx-auto lg:px-[80px] px-[20px] bg-[#f5ecd9]">
+      <div class="boxes flex flex-wrap justify-between align-middle w-[100%]">
+        <div class="box mx-auto py-[60px] lg:w-[20%] w-[47%] text-center">
+          <figure class="flex justify-center mb-[15px]">
+            <img
+              class="border-[1px] border-black rounded-full px-[15px] py-[15px]"
+              src="img/icon1.svg"
+              alt=""
+            />
+          </figure>
+          <p>Flexible Payment</p>
+          <p class="text-[14px]">Pay with Multiple Credit Cards</p>
+        </div>
+        <!--  -->
+        <div class="box mx-auto py-[60px] lg:w-[20%] w-[47%] text-center">
+          <figure class="flex justify-center mb-[15px]">
+            <img
+              class="border-[1px] border-black rounded-full px-[15px] py-[15px]"
+              src="img/icon2.svg"
+              alt=""
+            />
+          </figure>
+          <p>Premium Support</p>
+          <p class="text-[14px]">Outstanding premium support</p>
+        </div>
+        <!--  -->
+        <div class="box mx-auto py-[60px] lg:w-[20%] w-[47%] text-center">
+          <figure class="flex justify-center mb-[15px]">
+            <img
+              class="border-[1px] border-black rounded-full px-[15px] py-[15px]"
+              src="img/icon3.svg"
+              alt=""
+            />
+          </figure>
+          <p>Fast Delivery</p>
+          <p class="text-[14px]">Experience the joy of fast shipping</p>
+        </div>
+        <!--  -->
+        <div class="box mx-auto py-[60px] lg:w-[20%] w-[47%] text-center">
+          <figure class="flex justify-center mb-[15px]">
+            <img
+              class="border-[1px] border-black rounded-full px-[15px] py-[15px]"
+              src="img/icon4.svg"
+              alt=""
+            />
+          </figure>
+          <p>Free Shipping</p>
+          <p class="text-[14px]">You will love at great low prices</p>
+        </div>
+        <!--  -->
+      </div>
+    </section>
+    <!-- end section 7 -->
+    <!-- start section 8 -->
+    <section
+      class="2xl:container bg-[#fffbf3] mx-auto lg:px-[80px] px-[20px] lg:py-[100px] py-[50px]"
+    >
+      <div class="texts flex justify-between align-middle">
+        <p class="text-[40px] font-Fraunces">Latest Productst</p>
+        <p class="hidden md:flex align-middle mr-[10px] mt-[25px]">
+          View All <span class="material-symbols-outlined"> east </span>
+        </p>
+      </div>
+      <div class="products flex flex-wrap justify-between">
+        <div class="product my-[30px] lg:w-[22%] md:w-[30%] w-[48%]">
+          <figure class="duration-1000 w-[100%]">
+            <img
+              class="hover:scale-[1.03] duration-500"
+              src="../src/img/lastestProduct1.jpg"
+              alt=""
+            />
+            <figcaption class="mt-[10px]">Pure Essence Cleanser</figcaption>
+            <figcaption>$ 21.00 USD</figcaption>
+          </figure>
+        </div>
+        <div class="product my-[30px] lg:w-[22%] md:w-[30%] w-[48%]">
+          <figure class="duration-1000 w-[100%]">
+            <img
+              class="hover:scale-[1.03] duration-300"
+              src="../src/img/lastestProduct2.jpg"
+              alt=""
+            />
+            <figcaption class="mt-[10px]">
+              Youthful Radiance Eye Cream
+            </figcaption>
+            <figcaption>$ 26.40 USD</figcaption>
+          </figure>
+        </div>
+        <div class="product my-[30px] lg:w-[22%] md:w-[30%] w-[48%]">
+          <figure class="w-[100%]">
+            <img
+              class="hover:scale-[1.03] duration-500"
+              src="../src/img/lastestProduct3.jpg"
+              alt=""
+            />
+            <figcaption class="mt-[10px]">Precision Brow Definer</figcaption>
+            <figcaption>$ 15.00 USD</figcaption>
+          </figure>
+        </div>
+        <div class="product my-[30px] lg:w-[22%] md:w-[30%] w-[48%]">
+          <figure class="w-[100%]">
+            <img
+              class="hover:scale-[1.03] duration-500"
+              src="../src/img/lastestProduct4.jpg"
+              alt=""
+            />
+            <figcaption class="mt-[10px]">
+              Flawless Finish Foundation
+            </figcaption>
+            <figcaption>$ 26.00 USD</figcaption>
+          </figure>
+        </div>
+        <div class="product my-[30px] lg:w-[22%] md:w-[30%] w-[48%]">
+          <figure class="w-[100%]">
+            <img
+              class="hover:scale-[1.03] duration-500"
+              src="../src/img/lastestProduct5.jpg"
+              alt=""
+            />
+            <figcaption class="mt-[10px]">Volume Mascara</figcaption>
+            <figcaption>$ 20.10 USD</figcaption>
+          </figure>
+        </div>
+        <!--  -->
+        <div class="product my-[30px] lg:w-[22%] md:w-[30%] w-[48%]">
+          <figure class="w-[100%]">
+            <img
+              class="hover:scale-[1.03] duration-500"
+              src="../src/img/lastestProduct6.jpg"
+              alt=""
+            />
+            <figcaption class="mt-[10px]">Purity Pearl Exfoliant</figcaption>
+            <figcaption>$ 14.40 USD</figcaption>
+          </figure>
+        </div>
+        <div class="product my-[30px] lg:w-[22%] md:w-[30%] w-[48%]">
+          <figure class="w-[100%]">
+            <img
+              class="hover:scale-[1.03] duration-500"
+              src="../src/img/lastestProduct7.jpg "
+              alt=""
+            />
+            <figcaption class="mt-[10px]">Reviving Face Scrub</figcaption>
+            <figcaption>$ 17.60 USD</figcaption>
+          </figure>
+        </div>
+        <div class="product my-[30px] lg:w-[22%] md:w-[30%] w-[48%]">
+          <figure class="w-[100%]">
+            <img
+              class="hover:scale-[1.03] duration-500"
+              src="../src/img/lastestProduct8.jpg"
+              alt=""
+            />
+            <figcaption class="mt-[10px]">Precision Tweezer Trio</figcaption>
+            <figcaption>$ 15.00 USD</figcaption>
+          </figure>
+        </div>
+      </div>
+      <p class="flex justify-end md:hidden align-middle mr-[10px] mt-[25px]">
+        View All <span class="material-symbols-outlined"> east </span>
+      </p>
+    </section>
+    <!-- end section 8 -->
+    <!-- start section 9 -->
+    <section
+      class="2xl:container mx-auto 2xl:px-[80px] px-[20px] lg:py-[150px] py-[50px]"
+    >
+      <p class="text-[30px] font-Fraunces">Latest News</p>
+      <div class="lastest-news flex justify-between flex-wrap">
+        <div
+          class="news my-[20px] flex flex-wrap w-full md:w-[48%] py-[30px] px-[30px] border-[1px] border-black"
+        >
+          <figure class="lg:w-[40%] w-[40%] md:w-full">
+            <img
+              class="md:max-h-[300px] w-full h-full lg:h-full"
+              src="img/newsImg1.jpg"
+              alt=""
+            />
+          </figure>
+
+          <div class="w-[53%] md:w-full lg:w-[53%] m-auto">
+            <p class="text-[16px]">Beauty Bites</p>
+            <p class="text-[23px] pt-[10px] pb-[40px]">
+              Day to night makeup effortless looks for every occation
+            </p>
+            <div class="flex items-center">
+              <a class="text-[16px] pr-[10px]">Read More</a>
+              <span class="material-symbols-outlined"> east </span>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+        <div
+          class="news my-[20px] flex flex-wrap w-full md:w-[48%] py-[30px] px-[30px] border-[1px] border-black"
+        >
+          <figure class="lg:w-[40%] w-[40%] md:w-full">
+            <img
+              class="md:max-h-[300px] w-full h-full lg:h-full"
+              src="img/newsImg2.jpg"
+              alt=""
+            />
+          </figure>
+
+          <div class="w-[53%] md:w-full lg:w-[53%] m-auto">
+            <p class="text-[16px]">Radiant Revelations</p>
+            <p class="text-[23px] pt-[10px] pb-[40px]">
+              Signature scents a journey into the world of fragrance
+            </p>
+            <div class="flex items-center">
+              <a class="text-[16px] pr-[10px]">Read More</a>
+              <span class="material-symbols-outlined"> east </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end section 9 -->
+    <!--start section 10 -->
+    <section class="2xl:container mx-auto flex flex-wrap">
+      <figure class="md:w-[16.6%] w-[33.3%]">
+        <img src="img/lastPart1.jpg" alt="" />
+      </figure>
+      <figure class="md:w-[16.6%] w-[33.3%]">
+        <img src="img/lastPart2.jpg" alt="" />
+      </figure>
+      <figure class="md:w-[16.6%] w-[33.3%]">
+        <img src="img/lastPart3.jpg" alt="" />
+      </figure>
+      <figure class="md:w-[16.6%] w-[33.3%]">
+        <img src="img/lastPart4.jpg" alt="" />
+      </figure>
+      <figure class="md:w-[16.6%] w-[33.3%]">
+        <img src="img/lastPart5.jpg" alt="" />
+      </figure>
+      <figure class="md:w-[16.6%] w-[33.3%]">
+        <img src="img/lastPart6.jpg" alt="" />
+      </figure>
+    </section>
+    <!--end section 10 -->
+    <!-- start Footer -->
+    <footer
+      class="bg-[#f5ecd9] 2xl:container py-[50px] mx-auto px-[20px] xl:px-[80px] flex justify-between align-middle"
+    >
+      <div class="logo w-full lg-[30%]">
+        <figure class="w-[50%]">
+          <img src="img/zibaLogo.png" class="rounded-full" alt="" />
+        </figure>
+      </div>
+      <div class="text w-full lg-[30%] m-auto text-center">
+        <p class="text-[50px] font-Fraunces">Ziba Irani</p>
+        <p>Front-end Developer</p>
+      </div>
+      <div class="icons w-full lg-[30%] m-auto text-center p-[50px]">
+        <a href="https://github.com/ziba-irani/">
+          <i
+            class="bi bi-github duration-500 text-[35px] mx-[5px] px-[20px] py-[14px] border-[1px] border-black rounded-full"
+          ></i>
+        </a>
+        <a href="https://www.linkedin.com/in/ziba-irani-developr/">
+          <i
+            class="bi bi-linkedin duration-500 text-[35px] mx-[5px] px-[20px] py-[14px] border-[1px] border-black rounded-full"
+          ></i>
+        </a>
+        <a href="https://www.instagram.com/zibairani_dev/">
+          <i
+            class="bi bi-instagram duration-500 text-[35px] mx-[5px] px-[20px] py-[14px] border-[1px] border-black rounded-full"
+          ></i>
+        </a>
+      </div>
+    </footer>
+    <!-- end Footer -->
+  </body>
+</html>
